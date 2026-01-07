@@ -260,7 +260,7 @@ transition: all ease 0.5s;
    font-family: Smythe,roboto,Verdana, Geneva, Tahoma, sans-serif;
    font-size: 2rem;
    margin-bottom: 0;
-   color:  ;
+  /* color:  ;*/
 }
 
 #Apropos2{
@@ -754,10 +754,15 @@ padding: 10px 10px;
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  background-image: url("Image/mous.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#AvisimageOIP1{
+    background-image: url("OIP-1.webp");
+}
+#AvisimageOIP{
+    background-image: url("OIP.webp");
 }
 .nommetier{
   width: 80%;
@@ -884,6 +889,16 @@ h6{
 
 /*Responsive*/
 
+
+/* 360 */
+@media (max-width: 360px){
+  /*Accueil*/
+.button4{
+  width: 90%;
+  max-width: 340px;
+ }
+}
+
 /*320*/
 
 @media (max-width: 320px){
@@ -907,7 +922,9 @@ h6{
 .button4{
   width: 100%;
   height: auto;
+  max-width: 320px;
  }
+ 
 /*APROPOS*/
 .aura {
     width: 90%;

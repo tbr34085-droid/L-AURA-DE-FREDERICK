@@ -901,7 +901,7 @@ h6{
 
 /*320*/
 
-@media (max-width: 320px){
+@media (max-width: 330px){
   /*Accueil*/
   #Aimage {
   min-width: 300px;
@@ -922,7 +922,6 @@ h6{
 .button4{
   width: 100%;
   height: auto;
-  max-width: 320px;
  }
  
 /*APROPOS*/

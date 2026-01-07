@@ -918,10 +918,12 @@ h6{
 {
   width: 70%;
   height: auto;
+
 }
 .button4{
   width: 100%;
   height: auto;
+  min-width: 280px;
  }
  
 /*APROPOS*/
